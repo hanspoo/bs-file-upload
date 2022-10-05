@@ -5,3 +5,5 @@ This library is for a project that is just a react component alone, doesn't moun
 It has to be mounted by the host page using render, there is an sample index.html showing how to use.
 
 It uses typescript and has a custom webpack configuration.
+
+Initially trying to build a file upload component for an existing legacy site.
