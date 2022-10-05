@@ -14,7 +14,7 @@ Actually for testing doing:
 
 ```
  npm run build
-  cp index.html dist/FileUpload.js /var/www/html/
+ cp index.html dist/FileUpload.js /var/www/html/
 ```
 
 Then go to:
