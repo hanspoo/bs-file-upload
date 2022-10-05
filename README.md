@@ -19,3 +19,5 @@ Actually for testing doing:
 
 Then go to:
 http://localhost/
+
+This assumes that the local document root is at /var/www/html, as is common in linux distros.
