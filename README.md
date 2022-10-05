@@ -1,6 +1,6 @@
 # Stand alone react component
 
-This library is for a react project that is just a component alone, doesn't mount anything, and doesn't include react either.
+This library is for a project that is just a react component alone, doesn't mount anything, doesn't include react either.
 
 It has to be mounted by the host page using render, there is an sample index.html showing how to use.
 
