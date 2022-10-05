@@ -21,3 +21,8 @@ Then go to:
 http://localhost/
 
 This assumes that the local document root is at /var/www/html, as is common in linux distros.
+
+# References
+
+* https://stackoverflow.com/questions/41072248/standalone-react-component-with-webpack
+* https://codeburst.io/building-react-widget-libraries-using-webpack-e0a140c16ce4

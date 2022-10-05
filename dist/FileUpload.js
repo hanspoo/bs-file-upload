@@ -92,14 +92,17 @@ var __webpack_exports__ = {};
 (() => {
 __webpack_require__.r(__webpack_exports__);
 /* harmony export */ __webpack_require__.d(__webpack_exports__, {
-/* harmony export */   "default": () => (/* export default binding */ __WEBPACK_DEFAULT_EXPORT__)
+/* harmony export */   "default": () => (/* binding */ FileUpload)
 /* harmony export */ });
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0__ = __webpack_require__(24);
 /* harmony import */ var react__WEBPACK_IMPORTED_MODULE_0___default = /*#__PURE__*/__webpack_require__.n(react__WEBPACK_IMPORTED_MODULE_0__);
 
-/* harmony default export */ function __WEBPACK_DEFAULT_EXPORT__() {
+function FileUpload() {
+    function onChange(e) {
+        console.log(e.target.files[0]);
+    }
     return (react__WEBPACK_IMPORTED_MODULE_0__.createElement(react__WEBPACK_IMPORTED_MODULE_0__.Fragment, null,
-        react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", { type: "file" }),
+        react__WEBPACK_IMPORTED_MODULE_0__.createElement("input", { onChange: onChange, type: "file" }),
         react__WEBPACK_IMPORTED_MODULE_0__.createElement("button", null, "Enviar")));
 }
 

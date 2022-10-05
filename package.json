@@ -5,7 +5,8 @@
   "main": "index.js",
   "scripts": {
     "start": "webpack --mode development",
-    "build": "webpack --mode production"
+    "build": "webpack --mode production",
+    "bundle": "npm run build && cp dist/FileUpload.js index.html /var/www/html/"
   },
   "keywords": [],
   "author": "",
