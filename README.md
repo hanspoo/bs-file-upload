@@ -8,6 +8,8 @@ It uses typescript and has a custom webpack configuration.
 
 Initially trying to build a file upload component for an existing legacy site.
 
+Our situation is that we have a legacy page where we already have react loaded, and also have the ccs, we just need the autonomous react component to place it anywhere.
+
 # Trying
 
 Actually for testing doing:
@@ -24,5 +26,5 @@ This assumes that the local document root is at /var/www/html, as is common in l
 
 # References
 
-* https://stackoverflow.com/questions/41072248/standalone-react-component-with-webpack
-* https://codeburst.io/building-react-widget-libraries-using-webpack-e0a140c16ce4
+- https://stackoverflow.com/questions/41072248/standalone-react-component-with-webpack
+- https://codeburst.io/building-react-widget-libraries-using-webpack-e0a140c16ce4
